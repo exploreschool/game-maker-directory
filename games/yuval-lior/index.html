@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+  </head>
+  <body
+    <div
+    style="
+      background-image: url('https://www.yo-yoo.co.il/painter/img/paints/e4ff3c822b0e041ccd41034c37a1438d.jpg');
+    "
+  >
+    <div>
+      <div
+        style="
+          position: fixed;
+          margin-left: 1rem;
+          text-align: center;
+          font-family: monospace;
+        "
+      >
+        <h2>Explore🔍</h2>
+        <p style="font-size: 40px;" id="paragraph"></p>
+      </div>
+      <div
+        style="display: flex; justify-content: center; flex: 100%;"
+        id="main"
+      >
+        <img
+          style="position: absolute; z-index: -1;"
+          src="./assets/images/computer.svg"
+        />
+        <canvas
+          id="game"
+          width="860"
+          height="478"
+          style="
+            display: block;
+            margin: 50px auto auto;
+
+            background: url('https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680');
+
+            background-size: cover;
+          "
+        ></canvas>
+      </div>
+    </div>
+  </body>
+  <script src="gameEngine.js"></script>
+  <script src="Circle.js"></script>
+  <script src="Rectangle.js"></script>
+  <script src="main.js"></script>
+</html>
